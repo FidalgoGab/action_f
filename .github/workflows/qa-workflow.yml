@@ -1,0 +1,22 @@
+name: CI --- QA
+
+on:
+  push:
+    branches: [ "QA" ]
+  pull_request:
+    branches: [ "QA" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Run a one-line script
+        run: echo Rodou em QA
+
+      - name: Run a multi-line script
+        run: |
+          echo Uhul!!!
+          echo Rodou Tudo certinho
