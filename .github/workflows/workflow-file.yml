@@ -1,4 +1,4 @@
-name: Meu Primeiro CI -- QA
+name: Meu Primeiro CI -- MASTER
 
 on:
   push:
@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Primeira Tarefa
+      - name: Primeira Tarefa MAIN
         run: echo Executando o que solicitei!
 
       - name: Segunda Tarefa
