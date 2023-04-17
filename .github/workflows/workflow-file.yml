@@ -1,4 +1,4 @@
-name: Meu Primeiro CI - QA
+name: Meu Primeiro CI
 
 on:
   push:
